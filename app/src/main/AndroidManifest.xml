@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BikeOnTabApp">
         <activity
-            android:name=".ItensBikeActivity"
+            android:name=".MenuPrincipalActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,6 +20,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ItensBikeActivity"
+            android:exported="false" />
     </application>
 
 </manifest>
